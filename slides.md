@@ -36,11 +36,10 @@ EELE 467
 <img src="/phd-comics-not-final.gif" class="h-full">
 
 ---
-class: 'text-center'
----
 
-<div class="grid grid-cols-2 gap-50 place-items-center">
-<div>
+<div class="grid grid-cols-2 gap-50">
+
+<div class="flex justify-center">
 
 ## Centralized
 
@@ -48,7 +47,7 @@ class: 'text-center'
 
 </div>
 
-<div>
+<div class="flex justify-center">
 
 ## Decentralized
 
