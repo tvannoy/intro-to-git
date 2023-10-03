@@ -28,7 +28,9 @@ layout: intro
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" class="h-60" al6="git"/>
 
-EELE 467
+
+Statistics seminar | Oct. 4, 2023
+
 
 
 ---
@@ -58,7 +60,7 @@ EELE 467
 
 <style>
   h2 {
-    @apply absolute top-0 text-center
+    @apply absolute top-5 text-center;
   }
 </style>
 
@@ -66,7 +68,7 @@ EELE 467
 clicks: 3
 ---
 
-# git: building blocks
+# git building blocks
 <ul>
   <li v-click="1"> <b>commits</b>: a snapshot of your files* </li>
   <li v-click="2"> <b>commit graph</b>: commits are organized into a <i>directed acyclic graph</i> </li>
@@ -80,7 +82,7 @@ clicks: 3
 
 </div>
 
-<arrow v-click="3" x1="350" y1="640" x2="350" y2="520" color="" width="6" arrowSize="1" />
+<arrow v-click="3" x1="350" y1="640" x2="350" y2="520" color="#f59e0b" width="6"/>
 
 <div v-click="1">
 
