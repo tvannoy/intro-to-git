@@ -63,11 +63,42 @@ EELE 467
 </style>
 
 ---
+clicks: 3
+---
 
-# git: basic ideas
+# git: building blocks
+<ul>
+  <li v-click="1"> <b>commits</b>: a snapshot of your files* </li>
+  <li v-click="2"> <b>commit graph</b>: commits are organized into a <i>directed acyclic graph</i> </li>
+</ul>
 
-- **commits**: a snapshot of your working tree
-- **commit graph**: commits are organized into a *directed acyclic graph*
+<br>
+
+<div v-click="3" class="relative -left-110 top-10">
+
+### history
+
+</div>
+
+<arrow v-click="3" x1="350" y1="640" x2="350" y2="520" color="" width="6" arrowSize="1" />
+
+<div v-click="1">
+
+*if git is *tracking* the files
+
+</div>
+
+
+<style>
+  p {
+     font-size: 0.5em;
+  }
+  h3 {
+    @apply text-amber-500;
+  }
+</style>
+
+---
 
 
 ---
