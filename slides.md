@@ -207,113 +207,114 @@ layout: section
 `git commit`
 
 - only changes in the staging area are added to the commit
-
-
----
-layout: statement
----
-
-# Exercise
-
-1. delete the contents of your `README.md` file
-2. stage those changes
-3. commit the changes
-
+- commits need a *commit message*
 
 ---
 
 # Viewing changes
 
 - *between your working tree and the index*: `git diff`
-- *between the index and HEAD (the parent commit)*: `git diff --staged` or `git diff --cached`
+- *between the index and HEAD (the parent commit)*: `git diff --staged`
 
 ---
 
-# Viewing histry
+# Exercise
+
+1. modify the contents of your `README.md` file
+2. stage those changes (`git add`)
+3. commit the changes (`git commit`)
+
+
+
+---
+
+# Viewing history
 
 `git log`
 
 ---
+
+# Exercise
+
+1. create a new file: `test.md`
+2. write stuff in `test.md`
+3. add `test.md` to the staging area
+4. commit your changes
+
+---
 layout: statement
+class: 'text-center'
+---
+
+# Reverting changes
+
+<div class="text-7xl">
+oops! <emojione-bug /> <emojione-grinning-face-with-sweat />
+</div>
+
+<br>
+
+`git revert`
+
 ---
 
 # Exercise
 
-1. add some text into `README.md`
-2. view the changes between your working tree and the index
-   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; remember `status` and `diff`
-
-3. add the changes into the index
-4. view changes between the index and the last commit
-
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`diff --staged`
-
-5. commit the changes in your index / "staging area"
+1. revert your first commit
 
 ---
+layout: section
+---
 
-## Local vs remote repository
+# Interacting with GitHub
+
+local vs. remote repositories
+
+---
+layout: full
+---
 
 
 <img src="/local-vs-remote-repos-local-changes.svg">
 
-<style>
-  h2 {
-    @apply absolute top-0 text-center
-  }
-</style>
-
 
 ---
+layout: full
+---
 
-## Local vs remote repository
 
 <img src="/local-vs-remote-repos-local-changes-push.svg">
 
-<style>
-  h2 {
-    @apply absolute top-0 text-center
-  }
-</style>
 
 ---
-
-## Local vs remote repository
-
+layout: full
+---
 
 <img src="/local-vs-remote-repos-remote-changes.svg">
 
-<style>
-  h2 {
-    @apply absolute top-0 text-center
-  }
-</style>
-
 ---
-
-## Local vs remote repository
+layout: full
+---
 
 <img src="/local-vs-remote-repos-remote-changes-pull.svg">
 
-<style>
-  h2 {
-    @apply absolute top-0 text-center
-  }
-</style>
 
-
----
-layout:statement
 ---
 
 # Exercise
+#### *pushing* to GitHub (the "remote" repository)
 
 1. verify that your local branch is ahead of the remote
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `git status`
 2. push your local changes to the GitHub repository (remote)
-3. edit a file and make a commit using your repo's GitHub webpage
-4. pull those changes
+
+---
+
+# Exercise
+#### *pulling* from GitHub
+
+1. edit a file and make a commit using your repo's GitHub webpage
+2. pull those changes into your local repo
 
 ---
 layout: section
@@ -329,26 +330,19 @@ a commit by any other name...
 
 <img src="/tags-and-branches-tag.svg">
 
+<v-click>
 
----
+`git tag -a v0.1`
 
-## Annotated tags **
-`git tag -a v1.2`
-
-** preferred
+</v-click>
 
 
-## Lightweight tags
-`git tag v1.2`
 
-
----
-layout: statement
 ---
 
 # Exercise
 
-1. tag your most recent commit as `my-first-tag`
+1. tag your most recent commit as `v1.0`
 
 ---
 
@@ -374,13 +368,11 @@ layout: statement
 - *both at the same time*: `git switch -c <branch-name>`
 
 ---
-layout: statement
----
 
 # Exercise
 
-1. create a branch called `my-first-branch` and switch to it
-2. add `hello from my-first-branch` to your `README.md`
+1. create a branch called `cool-feature` and switch to it
+2. add `hello from cool-feature branch` to your `README.md`
 
 ---
 
@@ -403,7 +395,47 @@ layout: statement
 # Exercise
 
 1. switch to your `main` branch
-2. merge `my-first-branch` into `main`
+2. merge `cool-feature` into `main`
+
+---
+
+# Typical branching workflow
+
+```mermaid
+gitGraph:
+  commit
+  commit
+  commit
+  branch feature1
+  checkout feature1
+  commit
+  commit
+  checkout main
+  merge feature1
+  commit
+  branch feature2
+  commit
+  commit
+  checkout feature2
+  commit
+  commit
+  commit
+  checkout main
+  commit
+  branch feature3
+  checkout feature3
+  commit
+  commit
+  checkout main
+  merge feature3
+  checkout feature2
+  commit
+  checkout main
+  merge feature2
+  commit
+
+```
+
 
 ---
 layout: two-cols-header
