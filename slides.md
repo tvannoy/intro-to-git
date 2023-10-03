@@ -177,16 +177,21 @@ class: 'text-center'
 
 
 ---
+layout: section
+---
 
 # The three trees
 
-<img src="/git-three-trees-overview.svg">
 
-<style>
-  h1 {
-    @apply absolute top-0 text-center
-  }
-</style>
+---
+
+
+<img  class="absolute top-15" src="/git-three-trees-overview.svg">
+
+<img v-click="1" class="absolute top-15" src="/git-three-trees-annotated.svg">
+
+
+
 
 ---
 
@@ -214,17 +219,6 @@ layout: statement
 2. stage those changes
 3. commit the changes
 
----
-
-## Review: the three trees
-
-<img src="/git-three-trees-annotated.svg">
-
-<!-- <style>
-  h1 {
-    @apply absolute top-0 text-center
-  }
-</style> -->
 
 ---
 
