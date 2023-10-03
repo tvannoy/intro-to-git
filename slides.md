@@ -5,12 +5,24 @@ theme: eloc
 highlighter: shiki
 # show line numbers in code blocks
 lineNumbers: false
+
+title: 'Intro to git: stats seminar'
+
 # some information about the slides, markdown enabled
 info: |
   ## Git intro
 # persist drawings in exports and build
 drawings:
   persist: false
+
+# enable pdf download in SPA build
+download: true
+exportFilename: 'intro-to-git-stats-seminar'
+
+selectable: true
+
+aspectRatio: '16/9'
+
 layout: intro
 ---
 
@@ -19,14 +31,6 @@ layout: intro
 EELE 467
 
 
----
-layout: statement
----
-
-# What is version control?
-
----
-layout: image
 ---
 
 <img src="/phd-comics-not-final.gif" class="h-full">
