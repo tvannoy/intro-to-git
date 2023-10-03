@@ -13,6 +13,7 @@
     "slidev-theme-eloc": "^1.0.1"
   },
   "devDependencies": {
+    "@iconify-json/emojione": "^1.1.7",
     "playwright-chromium": "^1.25.2"
   }
 }
