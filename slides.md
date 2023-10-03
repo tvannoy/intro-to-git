@@ -404,3 +404,23 @@ layout: statement
 
 1. switch to your `main` branch
 2. merge `my-first-branch` into `main`
+
+---
+layout: two-cols-header
+---
+
+# Resources <emojione-books />
+
+::left::
+
+- [git - the simple guide](https://rogerdudler.github.io/git-guide/)
+- [GitHub Git Guides](https://github.com/git-guides/)
+- [Atlassian git tutorials](https://www.atlassian.com/git/tutorials)
+- [Think like (a) Git](https://think-like-a-git.net/)
+
+::right::
+
+- [Command line Git](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
+- [Pro Git book](https://www.git-scm.com/book/en/v2)
+- [GitLab git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+- [GitHub git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
