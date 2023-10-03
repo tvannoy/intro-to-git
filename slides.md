@@ -2,7 +2,7 @@
 # try also 'default' to start simple
 theme: eloc
 # https://sli.dev/custom/highlighters.html
-highlighter: shiki
+highlighter: prism
 # show line numbers in code blocks
 lineNumbers: false
 
