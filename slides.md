@@ -130,12 +130,12 @@ class: 'text-center'
 
 <v-clicks>
 
-1. `git add`
-2. `git commit`
-3. `git push`
-4. `git pull`
-6. `git status`
-7. `git log`
+- `git add`
+- `git commit`
+- `git push`
+- `git pull`
+- `git status`
+- `git log`
 
 </v-clicks>
 
