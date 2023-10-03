@@ -100,28 +100,80 @@ clicks: 3
   }
 </style>
 
----
-
 
 ---
 
 <img src="/commit-graph.svg">
-<!-- do an example visualization here-->
-
----
-
-# Getting practical
-## Get a pre-existing repo: "cloning"
-
-`git clone git@github.com:<user-or-org>/<repo-name>.git`
 
 ---
 layout: statement
+class: 'text-center'
 ---
 
-# Exercise
+# Create a repository
 
-Clone your starter GitHub repository
+<a href="https://github.com/new">https://github.com/new</a>
+
+---
+layout: statement
+class: 'text-center'
+---
+
+# Clone the repository
+
+`git clone`
+
+
+---
+
+# The basics
+
+<v-clicks>
+
+1. `git add`
+2. `git commit`
+3. `git push`
+4. `git pull`
+6. `git status`
+7. `git log`
+
+</v-clicks>
+
+<div v-click="7" class="absolute left-1000px top-350px text-amber-500">
+
+#### committing changes
+
+</div>
+
+<div v-click="8" class="absolute left-1000px top-520px text-blue-500">
+
+#### interact with GitHub
+
+</div>
+
+<div v-click="9" class="absolute left-1000px top-680px text-red-500">
+
+#### view what you've done
+
+</div>
+
+<div v-click="7" class="absolute left-900px top-295px">
+<svg width="100" height="500" class="stroke-amber-500">
+<polyline points="0,40 80,40 80,190 0,190" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+</svg>
+</div>
+
+<div v-click="8" class="absolute left-900px top-455px">
+<svg width="100" height="500" class="stroke-blue-500">
+<polyline points="0,40 80,40 80,190 0,190" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+</svg>
+</div>
+
+<div v-click="9" class="absolute left-900px top-615px">
+<svg width="100" height="500" class="stroke-red-500">
+<polyline points="0,40 80,40 80,190 0,190" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+</svg>
+</div>
 
 
 ---
