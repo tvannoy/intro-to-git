@@ -26,15 +26,22 @@ aspectRatio: '16/9'
 fonts:
   sans: 'Source Sans Pro'
 
-layout: intro
+class: 'text-center'
 ---
+<div class="flex flex-row  justify-between w-9/10">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" class="h-60" al6="git"/>
-
-
+<div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" class="h-300px" al6="git"/>
+<br>
 Statistics seminar | Oct. 4, 2023
+</div>
 
-
+<div>
+<qrcode-vue :size=300 value="https://example.com"/>
+<br>
+follow along!
+</div>
+</div>
 
 ---
 
@@ -403,6 +410,8 @@ a commit by any other name...
 
 `git merge <branch-to-merge>`
 
+- need to be in the branch you want to *merge into*
+
 
 ---
 layout: statement
@@ -472,3 +481,16 @@ layout: two-cols-header
 - [Pro Git book](https://www.git-scm.com/book/en/v2)
 - [GitLab git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 - [GitHub git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
+
+---
+
+<div class="flex flex-row w-9/10 justify-between">
+
+<mdi-presentation class="text-28xl text-blue-500"/>
+
+<mdi-arrow-right class="text-28xl text-amber-500" />
+
+<qrcode-vue :size=500 value="https://example.com"/>
+
+</div>
+
