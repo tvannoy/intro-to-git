@@ -481,6 +481,7 @@ gitGraph:
 - [GitHub Git Guides](https://github.com/git-guides/)
 - [Atlassian git tutorials](https://www.atlassian.com/git/tutorials)
 - [Think like (a) Git](https://think-like-a-git.net/)
+- [Git best practices](https://sethrobertson.github.io/GitBestPractices/)
 
 </div>
 <div>
@@ -489,6 +490,7 @@ gitGraph:
 - [Pro Git book](https://www.git-scm.com/book/en/v2)
 - [GitLab git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 - [GitHub git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
+- [The art of the commit](https://alistapart.com/article/the-art-of-the-commit/)
 
 </div>
 </div>
@@ -530,3 +532,4 @@ assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-c
 <a href="https://git-school.github.io/visualizing-git">https://git-school.github.io/visualizing-git</a>
 
 <iframe src="https://git-school.github.io/visualizing-git" title="https://git-school.github.io/visualizing-git"></iframe>
+
