@@ -504,3 +504,9 @@ assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-c
 
 - [random example](https://zenodo.org/record/8370339)
 - [how to](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+
+---
+
+<a href="https://git-school.github.io/visualizing-git">https://git-school.github.io/visualizing-git</a>
+
+<iframe src="https://git-school.github.io/visualizing-git" title="https://git-school.github.io/visualizing-git"></iframe>
