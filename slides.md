@@ -202,8 +202,8 @@ layout: section
 
 # The index / staging area
 
-- *staging changes*: `git add <files>`
-- *viewing the index*: `git status`
+- staging changes: `git add <files>`
+- viewing the index: `git status`
 
 ---
 
@@ -218,8 +218,8 @@ layout: section
 
 # Viewing changes
 
-- *between your working tree and the index*: `git diff`
-- *between the index and HEAD (the parent commit)*: `git diff --staged`
+- between your working tree and the index: `git diff`
+- between the index and HEAD (the parent commit): `git diff --staged`
 
 ---
 
