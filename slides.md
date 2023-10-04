@@ -23,6 +23,9 @@ selectable: true
 
 aspectRatio: '16/9'
 
+fonts:
+  sans: 'Source Sans Pro'
+
 layout: intro
 ---
 
@@ -186,9 +189,11 @@ layout: section
 ---
 
 
-<img  class="absolute top-15" src="/git-three-trees-overview.svg">
+<img  class="absolute top-0 h-screen" src="/git-three-trees-overview.svg">
 
-<img v-click="1" class="absolute top-15" src="/git-three-trees-annotated.svg">
+<img v-click="1" class="absolute top-0 h-screen" src="/git-three-trees-annotated-add.svg">
+<img v-click="2" class="absolute top-0 h-screen" src="/git-three-trees-annotated-commit.svg">
+<img v-click="3" class="absolute top-0 h-screen" src="/git-three-trees-annotated-full.svg">
 
 
 
@@ -275,7 +280,7 @@ layout: full
 ---
 
 
-<img src="/local-vs-remote-repos-local-changes.svg">
+<img class="h-screen" src="/local-vs-remote-repos-local-changes.svg">
 
 
 ---
@@ -283,20 +288,20 @@ layout: full
 ---
 
 
-<img src="/local-vs-remote-repos-local-changes-push.svg">
+<img class="h-screen" src="/local-vs-remote-repos-local-changes-push.svg">
 
 
 ---
 layout: full
 ---
 
-<img src="/local-vs-remote-repos-remote-changes.svg">
+<img class="h-screen" src="/local-vs-remote-repos-remote-changes.svg">
 
 ---
 layout: full
 ---
 
-<img src="/local-vs-remote-repos-remote-changes-pull.svg">
+<img class="h-screen" src="/local-vs-remote-repos-remote-changes-pull.svg">
 
 
 ---
@@ -346,16 +351,25 @@ a commit by any other name...
 
 ---
 
+<div class="absolute top-1">
+
 # Branches
 
-<img src="/tags-and-branches-branch.svg">
+</div>
+
+<img class="absolute bottom-0" src="/tags-and-branches-branch.svg">
+
 
 
 ---
 
+<div class="absolute top-1">
+
 # Branches
 
-<img src="/tags-and-branches-branch-2.svg">
+</div>
+
+<img class="absolute bottom-0" src="/tags-and-branches-branch-2.svg">
 
 
 ---
