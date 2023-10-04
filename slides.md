@@ -31,8 +31,6 @@ transition: fade
 # force light mode
 colorSchema: 'light'
 
-fonts:
-  sans: 'Source Sans Pro'
 
 class: 'text-center'
 ---
@@ -266,6 +264,74 @@ layout: section
 2. write stuff in `test.md`
 3. add `test.md` to the staging area
 4. commit your changes
+
+---
+layout: section
+---
+
+# Commit philosophy
+
+---
+
+# When to commit?
+
+<v-clicks>
+
+- you complete a *logical, atomic unit* of work
+- you might want to undo those changes
+
+</v-clicks>
+
+---
+
+# What to commit?
+
+<div class="flex flex-row justify-between w-6/10">
+<div v-click>
+
+### do commit
+<hr>
+
+- source code
+- documentation
+
+</div>
+<div v-click>
+
+### don't commit
+<hr>
+
+- build artifacts
+- large data files
+
+</div>
+</div>
+
+---
+
+# Commit messages
+
+<div class="flex flex-row justify-between w-9/10">
+
+<div v-click>
+
+### philosophy
+<hr>
+
+- tell a *story* of your project's history
+- capture *why*
+
+</div>
+<div v-click>
+
+### content
+<hr>
+
+- short summary
+- extended description
+
+</div>
+</div>
 
 ---
 layout: statement
