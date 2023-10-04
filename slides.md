@@ -376,12 +376,12 @@ a commit by any other name...
 
 ---
 
-# Branching
+# Branching commands
 
-- *creation*: `git branch <branch-name>`
-- *changing branches*: `git switch <branch-name>`
-- *changing branches*: `git checkout <branch-name>`
-- *both at the same time*: `git switch -c <branch-name>`
+- creation: `git branch <branch-name>`
+- changing branches: `git switch <branch-name>`
+- changing branches: `git checkout <branch-name>`
+- both at the same time: `git switch -c <branch-name>`
 
 ---
 
