@@ -1,11 +1,7 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Stats seminar git tutorial
 
-To start the slide show:
+Slides for a stats seminar on Oct. 4, 2023.
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+View the slides [here](https://tvannoy.github.io/stats-seminar-intro-to-git) on GitHub pages.
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+This presentation was made with [slidev](https://sli.dev/).
