@@ -128,6 +128,8 @@ class: 'text-center'
 
 
 ---
+clicks: 9
+---
 
 # The basics
 
