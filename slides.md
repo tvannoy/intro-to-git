@@ -23,6 +23,9 @@ selectable: true
 
 aspectRatio: '16/9'
 
+# force light mode
+colorSchema: 'light'
+
 fonts:
   sans: 'Source Sans Pro'
 
