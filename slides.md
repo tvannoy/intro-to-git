@@ -23,6 +23,11 @@ selectable: true
 
 aspectRatio: '16/9'
 
+# disable presenter mode in build, but allow in dev
+presenter: dev
+
+transition: fade
+
 # force light mode
 colorSchema: 'light'
 
@@ -366,17 +371,7 @@ a commit by any other name...
 1. tag your most recent commit as `v1.0`
 
 ---
-
-<div class="absolute top-1">
-
-# Branches
-
-</div>
-
-<img class="absolute bottom-0" src="/tags-and-branches-branch.svg">
-
-
-
+clicks: 1
 ---
 
 <div class="absolute top-1">
@@ -385,7 +380,15 @@ a commit by any other name...
 
 </div>
 
-<img class="absolute bottom-0" src="/tags-and-branches-branch-2.svg">
+<img v-click-hide="1" class="absolute bottom-0" src="/tags-and-branches-branch.svg">
+<img v-click="1" class="absolute bottom-0" src="/tags-and-branches-branch-2.svg">
+
+<style>
+  .slidev-vclick-target {
+    transition: none;
+  }
+</style>
+
 
 
 ---
