@@ -204,9 +204,24 @@ layout: section
 
 # The three trees
 
-
 ---
 
+# File states
+
+<div class="flex flex-row justify-between w-9/10 items-center">
+
+<p class="text-blue-500 text-7xl">modified</p>
+
+<mdi-arrow-left-right class="text-9xl color-gray-500"/>
+
+<p class="text-green-500 text-7xl">staged</p>
+
+<mdi-arrow-right class="text-9xl color-gray-500"/>
+
+<p class="text-purple-500 text-7xl">committed</p>
+</div>
+
+---
 
 <img  class="absolute top-0 h-screen" src="/git-three-trees-overview.svg">
 
