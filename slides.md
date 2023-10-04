@@ -49,11 +49,12 @@ follow along!
 
 ---
 
-<div class="grid grid-cols-2 gap-50">
+<div class="grid grid-cols-2 gap-40">
 
 <div class="flex justify-center">
 
 ## Centralized
+
 
 <img src="/vcs-comparison-centralized.svg">
 
@@ -62,6 +63,7 @@ follow along!
 <div class="flex justify-center">
 
 ## Decentralized
+
 
 <img src="/vcs-comparison-decentralized.svg">
 
