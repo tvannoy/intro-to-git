@@ -416,8 +416,6 @@ a commit by any other name...
 
 
 ---
-layout: statement
----
 
 # Exercise
 
