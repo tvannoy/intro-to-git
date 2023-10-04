@@ -271,6 +271,8 @@ layout: section
 
 # Commit philosophy
 
+<emojione-thinking-face class="text-50"/>
+
 ---
 
 # When to commit?
@@ -579,7 +581,9 @@ gitGraph:
 layout: section
 ---
 
-# Bonus <emojione-party-popper />
+# Bonus
+
+<emojione-party-popper class="text-50" />
 
 
 ---
