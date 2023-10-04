@@ -502,8 +502,15 @@ layout: two-cols-header
 <a class="absolute bottom-20 right-1/4" href="https://tvannoy.github.io/stats-seminar-intro-to-git">tvannoy.github.io/stats-seminar-intro-to-git</a>
 
 ---
+layout: section
+---
 
-## Bonus: archiving code with <a href="https://zenodo.org/">Zenodo</a>
+# Bonus <emojione-party-popper />
+
+
+---
+
+## Archiving code with <a href="https://zenodo.org/">Zenodo</a>
 
 <div class="text-6xl">
 assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-code-outline class="text-amber-500"/>
