@@ -40,11 +40,13 @@ Statistics seminar | Oct. 4, 2023
 </div>
 
 <div>
-<qrcode-vue :size=300 value="https://example.com"/>
+<qrcode-vue :size=300 value="https://tvannoy.github.io/stats-seminar-intro-to-git"/>
 <br>
 follow along!
 </div>
 </div>
+
+<a class="absolute bottom-20 right-1/4" href="https://tvannoy.github.io/stats-seminar-intro-to-git">tvannoy.github.io/stats-seminar-intro-to-git</a>
 
 ---
 
@@ -493,9 +495,11 @@ layout: two-cols-header
 
 <mdi-arrow-right class="text-28xl text-amber-500" />
 
-<qrcode-vue :size=500 value="https://example.com"/>
+<qrcode-vue :size=500 value="tvannoy.github.io/stats-seminar-intro-to-git"/>
 
 </div>
+
+<a class="absolute bottom-20 right-1/4" href="https://tvannoy.github.io/stats-seminar-intro-to-git">tvannoy.github.io/stats-seminar-intro-to-git</a>
 
 ---
 
