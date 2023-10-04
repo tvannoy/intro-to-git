@@ -415,7 +415,7 @@ layout: statement
 
 # Typical branching workflow
 
-```mermaid
+```mermaid {scale: 1.4}
 gitGraph:
   commit
   commit
@@ -426,7 +426,7 @@ gitGraph:
   commit
   checkout main
   merge feature1
-  commit
+  commit tag: "v1.0.0"
   branch feature2
   commit
   commit
@@ -435,20 +435,20 @@ gitGraph:
   commit
   commit
   checkout main
-  commit
+  commit "v.1.1.0"
   branch feature3
   checkout feature3
   commit
   commit
   checkout main
-  merge feature3
+  merge feature3 tag: "v1.2.0"
   checkout feature2
   commit
   checkout main
   merge feature2
-  commit
-
+  commit tag: "v2.0.0"
 ```
+
 
 
 ---
