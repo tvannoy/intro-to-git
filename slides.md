@@ -468,32 +468,35 @@ gitGraph:
 
 
 ---
-layout: two-cols-header
----
 
 # Resources <emojione-books />
 
-::left::
+<div class="flex flex-row justify-between w-8/10">
+<div>
 
 - [git - the simple guide](https://rogerdudler.github.io/git-guide/)
 - [GitHub Git Guides](https://github.com/git-guides/)
 - [Atlassian git tutorials](https://www.atlassian.com/git/tutorials)
 - [Think like (a) Git](https://think-like-a-git.net/)
 
-::right::
+</div>
+<div>
 
 - [Command line Git](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 - [Pro Git book](https://www.git-scm.com/book/en/v2)
 - [GitLab git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 - [GitHub git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
 
+</div>
+</div>
+
 ---
 
-<div class="flex flex-row w-9/10 justify-between">
+<div class="flex flex-row w-full justify-between items-center">
 
-<mdi-presentation class="text-28xl text-blue-500"/>
+<mdi-presentation class="text-200 text-blue-500"/>
 
-<mdi-arrow-right class="text-28xl text-amber-500" />
+<mdi-arrow-right class="text-150 text-amber-500" />
 
 <qrcode-vue :size=500 value="tvannoy.github.io/stats-seminar-intro-to-git"/>
 
