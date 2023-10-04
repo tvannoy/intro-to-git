@@ -289,7 +289,7 @@ layout: section
 # What to commit?
 
 <div class="flex flex-row justify-between w-6/10">
-<div v-click>
+<div v-click class="text-center">
 
 ### do commit
 <hr>
@@ -298,7 +298,7 @@ layout: section
 - documentation
 
 </div>
-<div v-click>
+<div v-click class="text-center">
 
 ### don't commit
 <hr>
@@ -315,7 +315,7 @@ layout: section
 
 <div class="flex flex-row justify-between w-9/10">
 
-<div v-click>
+<div v-click class="text-center">
 
 ### philosophy
 <hr>
@@ -324,7 +324,7 @@ layout: section
 - capture *why*
 
 </div>
-<div v-click>
+<div v-click class="text-center">
 
 ### content
 <hr>
