@@ -139,7 +139,7 @@ layout: statement
 class: 'text-center'
 ---
 
-# Clone the repository
+# Clone the repository <mdi-download-box class="color-blue-500" />
 
 `git clone`
 
@@ -237,8 +237,8 @@ layout: section
 
 # Viewing changes
 
-- between your working tree and the index: `git diff`
-- between the index and HEAD (the parent commit): `git diff --staged`
+- working tree <mdi-arrow-left-right /> staging area: `git diff`
+- staging area <mdi-arrow-left-right />  HEAD (the parent commit): `git diff --staged`
 
 ---
 
@@ -340,13 +340,15 @@ layout: statement
 class: 'text-center'
 ---
 
-# Reverting changes
-
-<div class="text-7xl">
+<div class="text-8xl">
 oops! <emojione-bug /> <emojione-grinning-face-with-sweat />
 </div>
 
+
 <br>
+
+# Reverting changes
+
 
 `git revert`
 
