@@ -552,6 +552,44 @@ gitGraph:
   commit tag: "v2.0.0"
 ```
 
+---
+layout: section
+---
+
+# <emojione-graduation-cap class="text-200"/>
+
+---
+
+## Archiving code with <a href="https://zenodo.org/">Zenodo</a>
+
+<div class="text-6xl">
+assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-code-outline class="text-amber-500"/>
+</div>
+
+- [random example](https://zenodo.org/record/8370339)
+- [how to](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+
+---
+
+<div class="flex flex-row w-full justify-between items-center">
+
+<mdi-presentation class="text-200 text-blue-500"/>
+
+<mdi-arrow-right class="text-150 text-amber-500" />
+
+<qrcode-vue :size=500 value="tvannoy.github.io/stats-seminar-intro-to-git"/>
+
+</div>
+
+<a class="absolute bottom-20 right-1/4" href="https://tvannoy.github.io/stats-seminar-intro-to-git">tvannoy.github.io/stats-seminar-intro-to-git</a>
+
+---
+layout: section
+---
+
+# Bonus slides
+
+<emojione-party-popper class="text-50" />
 
 
 ---
@@ -579,43 +617,10 @@ gitGraph:
 </div>
 </div>
 
----
-
-<div class="flex flex-row w-full justify-between items-center">
-
-<mdi-presentation class="text-200 text-blue-500"/>
-
-<mdi-arrow-right class="text-150 text-amber-500" />
-
-<qrcode-vue :size=500 value="tvannoy.github.io/stats-seminar-intro-to-git"/>
-
-</div>
-
-<a class="absolute bottom-20 right-1/4" href="https://tvannoy.github.io/stats-seminar-intro-to-git">tvannoy.github.io/stats-seminar-intro-to-git</a>
-
----
-layout: section
----
-
-# Bonus
-
-<emojione-party-popper class="text-50" />
-
 
 ---
 
-## Archiving code with <a href="https://zenodo.org/">Zenodo</a>
-
-<div class="text-6xl">
-assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-code-outline class="text-amber-500"/>
-</div>
-
-- [random example](https://zenodo.org/record/8370339)
-- [how to](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
-
----
-
-<a href="https://git-school.github.io/visualizing-git">https://git-school.github.io/visualizing-git</a>
+Playground: <a href="https://git-school.github.io/visualizing-git">https://git-school.github.io/visualizing-git</a>
 
 <iframe src="https://git-school.github.io/visualizing-git" title="https://git-school.github.io/visualizing-git"></iframe>
 
