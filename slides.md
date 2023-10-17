@@ -6,7 +6,7 @@ highlighter: prism
 # show line numbers in code blocks
 lineNumbers: false
 
-title: 'Intro to git: stats seminar'
+title: 'Intro to Git'
 
 # some information about the slides, markdown enabled
 info: |
@@ -17,7 +17,7 @@ drawings:
 
 # enable pdf download in SPA build
 download: true
-exportFilename: 'intro-to-git-stats-seminar'
+exportFilename: 'intro-to-git'
 
 selectable: true
 
@@ -39,7 +39,7 @@ class: 'text-center'
 <div>
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" class="h-300px" al6="git"/>
 <br>
-Statistics seminar | Oct. 4, 2023
+<!-- insert presentation information here -->
 </div>
 
 <div>
