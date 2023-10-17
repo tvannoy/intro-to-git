@@ -7,7 +7,7 @@
     export default {
         data() {
           return {
-              value: window.location.origin,
+              value: window.location.origin + window.location.pathname,
               size: 300,
             }
         },

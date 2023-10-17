@@ -3,7 +3,7 @@
 export default {
   data: () => {
       return {
-        href: window.location.origin,
+        href: window.location.host + window.location.pathname
       };
   },
 }
