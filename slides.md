@@ -56,6 +56,37 @@ follow along!
 <img src="/phd-comics-not-final.gif" class="h-full">
 
 ---
+layout: statement
+class: 'text-center'
+---
+
+# Why use version control?
+
+<br>
+
+<div class="flex flex-row justify-between w-full">
+<div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+<flat-color-icons-collaboration class="text-50"/>
+collaboration
+</div>
+<div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+<mdi-test-tube class="text-50 text-green-500"/>
+reproducibility
+</div>
+<div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+<mdi-cloud-upload class="text-50 text-blue-500"/>
+backups
+</div>
+
+</div>
+
+---
+layout: section
+---
+
+# Types of version control
+
+---
 
 <div class="grid grid-cols-2 gap-40">
 
@@ -83,6 +114,17 @@ follow along!
     @apply absolute top-5 text-center;
   }
 </style>
+
+---
+
+<div class="flex flex-row justify-between w-9/10 h-full text-center content-center place-items-center">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" class="h-200px" al6="git"/>
+
+<img src="https://imgs.xkcd.com/comics/git.png" class="h-full">
+
+</div>
+
 
 ---
 clicks: 3
@@ -562,7 +604,7 @@ layout: section
 
 ## Archiving code with <a href="https://zenodo.org/">Zenodo</a>
 
-<div class="text-6xl">
+<div class="text-6xl text-center">
 assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-code-outline class="text-amber-500"/>
 </div>
 
