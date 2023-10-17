@@ -49,7 +49,7 @@ follow along!
 </div>
 </div>
 
-<a class="absolute bottom-20 right-1/4" href="https://tvannoy.github.io/stats-seminar-intro-to-git">tvannoy.github.io/stats-seminar-intro-to-git</a>
+<presentation-url class="text-center absolute bottom-20" />
 
 ---
 
@@ -581,7 +581,8 @@ assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-c
 
 </div>
 
-<a class="absolute bottom-20 right-1/4" href="https://tvannoy.github.io/stats-seminar-intro-to-git">tvannoy.github.io/stats-seminar-intro-to-git</a>
+<presentation-url class="absolute bottom-20" /> 
+
 
 ---
 layout: section
