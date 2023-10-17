@@ -1,7 +1,7 @@
-# Stats seminar git tutorial
+# Intro to git presentation template
 
-Slides for a stats seminar on Oct. 4, 2023.
+This repo contains the main template for my intro to git presentation, which is further customized in repos created from this template.
 
-View the slides [here](https://tvannoy.github.io/stats-seminar-intro-to-git) on GitHub pages.
+View the slides [here](https://tvannoy.github.io/intro-to-git) on GitHub pages.
 
 This presentation was made with [slidev](https://sli.dev/).
