@@ -614,25 +614,6 @@ gitGraph:
 ```
 
 ---
-layout: section
----
-
-# <emojione-graduation-cap class="text-200"/>
-
----
-routeAlias: zenodo
----
-
-## Archiving code with <a href="https://zenodo.org/">Zenodo</a>
-
-<div class="text-6xl text-center">
-assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-code-outline class="text-amber-500"/>
-</div>
-
-- [random example](https://zenodo.org/record/8370339)
-- [how to](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
-
----
 
 <div class="flex flex-row w-full justify-between items-center">
 
@@ -655,6 +636,19 @@ layout: section
 
 <emojione-party-popper class="text-50" />
 
+
+---
+routeAlias: zenodo
+---
+
+## Archiving code with <a href="https://zenodo.org/">Zenodo</a>
+
+<div class="text-6xl text-center">
+assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-code-outline class="text-amber-500"/>
+</div>
+
+- [random example](https://zenodo.org/record/8370339)
+- [how to](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
 
 ---
 
