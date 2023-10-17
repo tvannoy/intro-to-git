@@ -516,9 +516,9 @@ clicks: 1
 
 ---
 
-# Typical branching workflow
+## Typical feature branch workflow
 
-```mermaid {scale: 1.4}
+```mermaid {scale: 1.4, theme: 'base'}
 gitGraph:
   commit
   commit
