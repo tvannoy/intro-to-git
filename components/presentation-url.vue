@@ -3,7 +3,8 @@
 export default {
   data: () => {
       return {
-        href: window.location.host + window.location.pathname
+        href: window.location.origin + window.location.pathname,
+        url: window.location.host + window.location.pathname
       };
   },
 }
@@ -13,5 +14,5 @@ export default {
 </script>
 
 <template>
-<a :href="href">{{ href }}</a>
+<a :href="href">{{ url }}</a>
 </template>
