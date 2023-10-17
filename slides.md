@@ -62,22 +62,41 @@ class: 'text-center'
 
 # Why use version control?
 
-<br>
+<div class="flex flex-row justify-between w-full h-full items-center">
+  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+    <flat-color-icons-collaboration class="text-70"/>
+    <i>collaboration</i>
+  </div>
+  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+    <mdi-test-tube class="text-70 text-blue-500"/>
+    <i>reproducibility</i>
+  </div>
+  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+    <mdi-cloud-upload class="text-70 text-green-500"/>
+    <i>backups</i>
+  </div>
+</div>
 
-<div class="flex flex-row justify-between w-full">
-<div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-<flat-color-icons-collaboration class="text-50"/>
-collaboration
-</div>
-<div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-<mdi-test-tube class="text-50 text-green-500"/>
-reproducibility
-</div>
-<div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
-<mdi-cloud-upload class="text-50 text-blue-500"/>
-backups
-</div>
+---
+layout: statement
+class: 'text-center'
+---
 
+# Version control in academia
+
+<div class="flex flex-row justify-between w-full h-full items-center">
+  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+   <mdi-file-code-outline class="text-70 text-purple-500"/>
+   <i>software</i>
+  </div>
+  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+   <mdi-fountain-pen class="text-70 text-blue-500"/>
+   <i>writing</i>
+  </div>
+  <div v-click class="grid grid-rows-2 gap-y-2 text-center justify-items-center">
+   <mdi-code-brackets class="text-70 text-green-500"/>
+   <Link to="zenodo"><i>citations</i></Link>
+  </div>
 </div>
 
 ---
@@ -600,6 +619,8 @@ layout: section
 
 # <emojione-graduation-cap class="text-200"/>
 
+---
+routeAlias: zenodo
 ---
 
 ## Archiving code with <a href="https://zenodo.org/">Zenodo</a>
