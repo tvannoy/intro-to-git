@@ -43,7 +43,7 @@ Statistics seminar | Oct. 4, 2023
 </div>
 
 <div>
-<qrcode-vue :size=300 value="https://tvannoy.github.io/stats-seminar-intro-to-git"/>
+<qrcode-vue :size=300 /> 
 <br>
 follow along!
 </div>
@@ -577,7 +577,7 @@ assign DOIs <mdi-code-brackets class="text-green-500"/> to your code <mdi-file-c
 
 <mdi-arrow-right class="text-150 text-amber-500" />
 
-<qrcode-vue :size=500 value="tvannoy.github.io/stats-seminar-intro-to-git"/>
+<qrcode-vue :size=500 />
 
 </div>
 

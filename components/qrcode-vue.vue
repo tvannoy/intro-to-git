@@ -7,7 +7,7 @@
     export default {
         data() {
           return {
-              value: 'https://example.com',
+              value: window.location.origin,
               size: 300,
             }
         },
