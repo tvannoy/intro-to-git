@@ -479,10 +479,10 @@ clicks: 1
 
 # Branching commands
 
-- creation: `git branch <branch-name>`
-- changing branches: `git switch <branch-name>`
-- changing branches: `git checkout <branch-name>`
-- both at the same time: `git switch -c <branch-name>`
+- create branch: `git branch <branch-name>`
+- change current branch: `git switch <branch-name>`
+<!-- - changing branches: `git checkout <branch-name>` -->
+<!-- - both at the same time: `git switch -c <branch-name>` -->
 
 ---
 
