@@ -396,6 +396,15 @@ layout: full
 
 <img class="h-screen" src="/local-vs-remote-repos-local-changes-push.svg">
 
+---
+
+# Exercise
+#### *pushing* to GitHub (the "remote" repository)
+
+1. verify that your local branch is ahead of the remote
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `git status`
+2. push your local changes to the GitHub repository (remote)
+
 
 ---
 layout: full
@@ -408,16 +417,6 @@ layout: full
 ---
 
 <img class="h-screen" src="/local-vs-remote-repos-remote-changes-pull.svg">
-
-
----
-
-# Exercise
-#### *pushing* to GitHub (the "remote" repository)
-
-1. verify that your local branch is ahead of the remote
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `git status`
-2. push your local changes to the GitHub repository (remote)
 
 ---
 
