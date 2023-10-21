@@ -499,7 +499,7 @@ a commit by any other name...
 
 # Tags
 
-<img src="/tags-and-branches-tag.svg">
+<img class="h-full" src="/tags-and-branches-tag.svg">
 
 <v-click>
 
